@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="96" height="64"/>
+  <tile id="3">
+   <properties>
+    <property name="collision" value=""/>
+    <property name="tower" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="meta" width="24" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZWBgYKUiZkHC1DR3oMxnGeKYbYjjgQ4/SjGpaY4WaXswmw8AITwFWQ==
+  </data>
+ </layer>
+ <layer name="bg" width="24" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBrFo3gUj+IBwAAZSwJB
+  </data>
+ </layer>
+ <layer name="road" width="24" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYETCtAD0Np9xiGPmIY4HOvwoxcQAcvURCwaz+QBNVgEJ
+  </data>
+ </layer>
+</map>
